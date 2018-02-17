@@ -50,7 +50,7 @@ public class PlayScreen implements Screen {
         logic = new Logic(game.batch);
 
         mapLoader = new TmxMapLoader();
-        map = mapLoader.load("t1.tmx");
+        map = mapLoader.load("t4.tmx");
         renderer = new OrthoCachedTiledMapRenderer(map);
         gamecam.position.set(gamePort.getWorldWidth()/2,gamePort.getWorldHeight()/2,0);
 
